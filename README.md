@@ -1,2 +1,2 @@
 # frontendmentor-huddle
-site responsivo  mobile e desktop
+Site responsivo  mobile e desktop
