@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    width: 1080px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo {
+    padding: 30px;
+    padding-left: 75px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 215px;
+}
+
+#illustration img {
+    padding-left: 70px;
+    margin-top: 40px;
+}
+
+#box {
+    
+    width: 400px;
+    color: #fff;
+    position: absolute;
+    left: 63%;
+    top: 30%;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+p {
+    font-weight: 300;
+    font-size: 0.9em;
+    width: 440px;
+    padding-bottom: 10px;
+}
+
+#box a {
+    background-color: #fff;
+    padding: 12px 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 4px 7px 9px hsl(257, 39%, 37%);
+}
+
+a:hover {
+    color: #fff;
+    background-color:  hsl(300, 69%, 71%);
+    transition: 1s;
+}
+
+ion-icon {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 3px;
+    position: relative;
+    left: 110%;
+    color: #fff;
+    top: 130%;
+}
+
+@media only screen and (max-width: 375px) {
+
+    body {
+        max-width: 375px;
+        background-image: url('images/bg-mobile.svg');
+        background-repeat: no-repeat;
+    }
+
+    #illustration img {
+        width: 300px;
+        margin: 50px;
+        padding-left: 0;
+        margin-top: 40px;
+    }
+
+    #logo {
+        padding: 10px;
+        padding-left: 25px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        width: 150px;
+    }
+
+    #box {
+        font-size:10px;
+        width: 250px;
+        color: #fff;
+        position: static;
+        text-align:center;
+        margin: 0 auto;
+}
+
+    #box p {
+        font-size: 12px;
+        width: 245px;
+    }
+
+    ion-icon {
+        border: 1px solid #fff;
+        border-radius: 50%;
+        padding: 5px;
+        margin: 3px;
+        left: 35%;
+        position: relative;
+        top: 50px;
+        color: #fff;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+  
