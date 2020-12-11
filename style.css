@@ -49,10 +49,10 @@ p {
     box-shadow: 4px 7px 9px hsl(257, 39%, 37%);
 }
 
-a:hover {
+#box a:hover {
     color: #fff;
     background-color:  hsl(300, 69%, 71%);
-    transition: 1s;
+    transition: 500ms;
 }
 
 ion-icon {
@@ -66,27 +66,45 @@ ion-icon {
     top: 130%;
 }
 
+a:hover ion-icon {
+    border: 1px solid  hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+    transition: 500ms;
+}
+
+.attribution { 
+    color: #fff;
+    font-size: 13px;
+    text-align: center; 
+}
+.attribution a {
+    color:  hsl(300, 68%, 76%);
+}
+  
+
+
 @media only screen and (max-width: 375px) {
 
     body {
-        max-width: 375px;
+        max-width: 370px;
         background-image: url('images/bg-mobile.svg');
         background-repeat: no-repeat;
     }
 
     #illustration img {
-        width: 300px;
+        width: 270px;
         margin: 50px;
         padding-left: 0;
         margin-top: 40px;
     }
 
     #logo {
-        padding: 10px;
-        padding-left: 25px;
+        padding: 15px;
+        margin: 15px;
+        padding-left: 15px;
         margin-top: 15px;
         margin-bottom: 10px;
-        width: 150px;
+        width: 120px;
     }
 
     #box {
@@ -95,8 +113,8 @@ ion-icon {
         color: #fff;
         position: static;
         text-align:center;
-        margin: 0 auto;
-}
+        margin:  auto;
+    }
 
     #box p {
         font-size: 12px;
@@ -112,20 +130,13 @@ ion-icon {
         position: relative;
         top: 50px;
         color: #fff;
+    }
+
+    .attribution {
+        width: 200px;
+        position: relative;
+        top: 70px;
+        margin: 0 auto;
+    }
 }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
   
