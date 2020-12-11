@@ -22,7 +22,7 @@ body {
 
 #box {
     
-    width: 420px;
+    width: 500px;
     color: #fff;
     position: absolute;
     left: 63%;
@@ -30,13 +30,14 @@ body {
 }
 
 h1 {
-    font-weight: 900;
+    font-weight: 600;
+    width: 400px;
 }
 
 p {
     font-weight: 300;
-    font-size: 0.9em;
-    width: 440px;
+    font-size: 1em;
+    width: 490px;
     padding-bottom: 10px;
 }
 
